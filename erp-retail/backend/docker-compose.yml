@@ -109,6 +109,9 @@ services:
     environment:
       - N8N_HOST=localhost
       - N8N_PORT=5678
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=23000102@hus.edu.vn
+      - N8N_BASIC_AUTH_PASSWORD=12122005
       - GENERIC_TIMEZONE:Asia/Ho_Chi_Minh
       - TZ=Asia/Ho_Chi_Minh
     volumes:
